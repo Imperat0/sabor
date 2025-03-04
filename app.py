@@ -18,13 +18,11 @@ def exibir_opcoes():
 
 def finalizar_app():
     os.system('cls')
-    # os.system('clear') 
     print('Finalizando o app')
 
 
 def escolher_opcao():
     opcao_escolhida = int(input('Escolha uma opção: '))
-    # opcao_escolhida = int(opcao_escolhida)
 
     if opcao_escolhida == 1: 
         print('Cadastrar restaurante')
