@@ -23,7 +23,6 @@ def finalizar_app():
 
 def escolher_opcao():
     opcao_escolhida = int(input('Escolha uma opção: '))
-
     if opcao_escolhida == 1: 
         print('Cadastrar restaurante')
     elif opcao_escolhida == 2: 
